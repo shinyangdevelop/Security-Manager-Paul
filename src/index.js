@@ -1,5 +1,6 @@
 const { Client, Intents, Collection } = require('discord.js')
 const { token } = require('secret.json')
+const { bad_words } = require('config.json')
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] })
 
