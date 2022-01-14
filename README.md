@@ -7,7 +7,7 @@ This is the first project in Manager Paul Series. You can use this bot in order 
 
 ## 2. How to invite this bot
 
-You can invite this bot by going into [release](https://github.com/shinyangdevelop/Security-Manager-Paul/releases), and pressing the link(You will be only able to invite the latest version). And send dm to 'shinyangdevelop#4700' with your guild id.
+You can invite this bot by going into [release](https://github.com/shinyangdevelop/Security-Manager-Paul/releases), and pressing the link(You will be only able to invite the latest version).
 Then, there will be Security-Manager-Paul bot. This bot requires the Administrator permission, in order to work properly.
 
 ## 3. How to run this bot in your own server
@@ -17,7 +17,6 @@ You can host this bot in your server by executing 'git clone https://github.com/
 ```
 {
   "token": "<your token>",
-  "guildId": ["<List of your guildId>"],
   "clientId": "<your clientId>"
 }
 ```
