@@ -1,5 +1,7 @@
 # Security-Manager-Paul
 
+### Warning! Don't open config.json, because there are bad words
+
 ## 1. About
 This is the first project in Manager Paul Series. You can use this bot in order to block a message that contains specific word. 
 
