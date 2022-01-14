@@ -29,4 +29,4 @@ Then, you can start the bot by
 Deletes message that contains bad word.
 
 ## 5. Contributing
-You can contribute to this project by creating pull request. You can add some bad words you know on package.json, or add events and features in the code.
+You can contribute to this project by creating pull request. You can add some bad words you know on config.json, or add events and features in the code.
