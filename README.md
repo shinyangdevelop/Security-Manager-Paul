@@ -16,8 +16,9 @@ You can host this bot in your server by executing 'git clone https://github.com/
 
 ```
 {
-  "token": <your token>,
-  "guildId": [<List of your guildId>] 
+  "token": "<your token>",
+  "guildId": ["<List of your guildId>"],
+  "clientId": "<your clientId>"
 }
 ```
 Then, you can start the bot by
