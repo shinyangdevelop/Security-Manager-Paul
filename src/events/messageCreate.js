@@ -10,6 +10,11 @@ module.exports = {
         let isblocked = false
         console.log(message.content)
         for(let counter=0; counter<blocked_words.length; counter+=1) {
+            if(message.content.length === blocked_words[counter].length-1) {
+                if(message.content.includes(blocked_words[counter].substring(1))) {
+                    isblocked=true
+                }
+            }
             if(message.content.toLowerCase().includes(blocked_words[counter])) {
                 isblocked = true
             }
