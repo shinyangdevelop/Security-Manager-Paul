@@ -1,5 +1,7 @@
 # Security-Manager-Paul
 
+### Warning! Don't open config.json, because there are bad words
+
 ## 1. About
 This is the first project in Manager Paul Series. You can use this bot in order to block a message that contains specific word. 
 
@@ -14,7 +16,8 @@ You can host this bot in your server by executing 'git clone https://github.com/
 
 ```
 {
-  "token": <your token>
+  "token": "<your token>",
+  "clientId": "<your clientId>"
 }
 ```
 Then, you can start the bot by
@@ -25,3 +28,6 @@ Then, you can start the bot by
 ### - v1.0: 
 [Add]
 Deletes message that contains bad word.
+
+## 5. Contributing
+You can contribute to this project by creating pull request. You can add some bad words you know on config.json, or add events and features in the code.
